@@ -1,7 +1,7 @@
-
 name = input("Enter your name: ")
-print("Hello," +name+ "!")
+print(f"Hello, {name}!")
 age = input("Enter your age:")
 age = int(age)
-
-print("You will be " + str((age+1)) + " next year.")
+print (age + 1)
+print(f"you will be {(age+1)} next year.")
+print(f"I am {age+1} next year")
